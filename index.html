@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Testimonials Section</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <section class="testimonials-section">
+    
+    <div class="header">
+      <h2>Our Clients Feedback</h2>
+      <p>Real experiences,Real people,Real stories.</p>
+    </div>
+
+    <!-- Slider Container -->
+    <div class="slider-container">
+      
+      <!-- Left Button -->
+      <button class="nav-btn" id="prevBtn" onclick="slidePrev()">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+
+      <!-- The Track that moves -->
+      <div class="slider-window">
+        <div class="slider-track" id="track">
+          
+          <!-- Card 1 -->
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review">"The service was amazing. They delivered the project on time and the code quality was perfect."</p>
+            <div class="user-info">
+              <div class="avatar" style="background: #ff6b6b;">R</div>
+              <div>
+                <h4>Rahul Sharma</h4>
+                <span>Web Developer</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review">"I loved working with this team. They understood my requirements perfectly and built a great app."</p>
+            <div class="user-info">
+              <div class="avatar" style="background: #4ecdc4;">P</div>
+              <div>
+                <h4>Priya Patel</h4>
+                <span>Startup Founder</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review">"Very professional and responsive. The UI design they provided was modern and easy to use."</p>
+            <div class="user-info">
+              <div class="avatar" style="background: #feca57;">A</div>
+              <div>
+                <h4>Amit Kumar</h4>
+                <span>UI Designer</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review">"Great experience! The pricing was fair and the communication was excellent throughout."</p>
+            <div class="user-info">
+              <div class="avatar" style="background: #5f27cd;">S</div>
+              <div>
+                <h4>Sneha Reddy</h4>
+                <span>Marketing Head</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review">"They fixed my website bugs in just 2 days. Highly recommended for anyone needing quick help!"</p>
+            <div class="user-info">
+              <div class="avatar" style="background: #ff9f43;">V</div>
+              <div>
+                <h4>Vikram Singh</h4>
+                <span>Business Owner</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Right Button -->
+      <button class="nav-btn" id="nextBtn" onclick="slideNext()">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
